@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ebrowniez crafts decadent brownies, cakes, and desserts made fresh in Brisbane.">
+  <title>Ebrowniez - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <a class="logo" href="index.html">Ebrowniez</a>
+        <button class="hamburger" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="primary-navigation">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1545912354-0bd3c4f6a5ae?auto=format&fit=crop&w=1600&q=80');">
+      <!-- Update hero background image above with your own dessert photography -->
+      <div class="container scroll-fade">
+        <h1>Ebrowniez</h1>
+        <p>Delicious brownies, cakes, and desserts – baked fresh in Brisbane.</p>
+        <div>
+          <a class="btn" href="contact.html">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section scroll-fade" id="about-preview">
+      <div class="container">
+        <div class="section-title">Baked with Heart</div>
+        <p>We handcraft each tray with premium ingredients, bold flavours, and plenty of love. Whether you're planning a celebration or craving a sweet treat, our brownies, cakes, and dessert cups are made to impress.</p>
+      </div>
+    </section>
+
+    <section class="section scroll-fade" id="gallery">
+      <div class="container">
+        <div class="section-title">Signature Treats</div>
+        <div class="gallery-grid">
+          <!-- Replace image URLs and captions with your own product shots -->
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1602253057119-44d745d9b860?auto=format&fit=crop&w=800&q=80" alt="Fudge brownie square">
+            <span>Classic Fudge Brownie</span>
+          </div>
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1589308078054-83253c95bb7b?auto=format&fit=crop&w=800&q=80" alt="Berry cheesecake brownie swirl">
+            <span>Strawberry Swirl</span>
+          </div>
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1606755962773-0e7d372fa0b5?auto=format&fit=crop&w=800&q=80" alt="Stack of brownie pieces with nuts">
+            <span>Nutella Hazelnut Crunch</span>
+          </div>
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1541976076758-347942db1971?auto=format&fit=crop&w=800&q=80" alt="Chocolate cake with frosting">
+            <span>Chocolate Celebration Cake</span>
+          </div>
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1577308856963-8cdc07f3472b?auto=format&fit=crop&w=800&q=80" alt="Lotus biscoff dessert cup">
+            <span>Lotus Biscoff Cup</span>
+          </div>
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Assorted dessert platter">
+            <span>Party Dessert Platter</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section scroll-fade" id="cta">
+      <div class="container">
+        <div class="section-title">Ready for Your Next Sweet Moment?</div>
+        <p style="text-align: center; max-width: 640px; margin: 0 auto 2rem;">Pre-order your favourite brownies, dessert trays, and cakes. We bake fresh for every celebration and can customise flavours to suit your event.</p>
+        <div style="display: flex; justify-content: center;">
+          <a class="btn" href="menu.html">Explore Our Menu</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; <span data-year></span> Ebrowniez. Crafted with love in Brisbane.</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/ebrowniez" target="_blank" rel="noopener" aria-label="Ebrowniez on Instagram">
+          <!-- Simple Instagram icon -->
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor">
+            <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0 2h10c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3zm11 1a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Ebrowniez on Facebook (coming soon)">
+          <!-- Placeholder Facebook icon -->
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor">
+            <path d="M13 3h4a1 1 0 011 1v3h-3a1 1 0 00-1 1v2h4l-.5 3H14v8h-3v-8H9v-3h2V8a4 4 0 014-4z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
