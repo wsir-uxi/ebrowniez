@@ -325,10 +325,12 @@ nav {
   color: var(--color-brown);
 }
 
+/* === Menu Styling Updates === */
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
+  align-items: stretch;
 }
 
 .menu-card {
@@ -337,32 +339,48 @@ nav {
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(58, 34, 20, 0.14);
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(58, 34, 20, 0.08);
 }
 
 .menu-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 28px 45px rgba(58, 34, 20, 0.2);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 28px 45px rgba(58, 34, 20, 0.22);
 }
 
 .menu-card__content {
   padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-card__title {
   font-family: "Poppins", "Montserrat", sans-serif;
   font-size: 1.2rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-dark-brown);
 }
 
 .menu-card__description {
-  font-size: 0.95rem;
-  color: rgba(43, 29, 21, 0.85);
+  font-size: 0.9rem;
+  color: rgba(43, 29, 21, 0.78);
   margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .menu-card__price {
   font-weight: 700;
   color: var(--color-brown);
+  margin-top: auto;
 }
 
 .contact-wrapper {
