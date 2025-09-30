@@ -24,11 +24,11 @@ html {
 body {
   font-family: "Open Sans", Arial, sans-serif;
   color: var(--color-text);
-  background: var(--color-cream);
-  background-image: radial-gradient(var(--color-muted) 1px, transparent 1px),
-    radial-gradient(var(--color-muted) 1px, transparent 1px);
-  background-size: 32px 32px;
-  background-position: 0 0, 16px 16px;
+  background-color: var(--color-cream);
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   line-height: 1.6;
 }
 

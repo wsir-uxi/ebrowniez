@@ -1,5 +1,6 @@
 ﻿import Head from 'next/head';
 import Link from 'next/link';
+import Image from "next/image";
 import useScrollFade from '../hooks/useScrollFade';
 
 export default function MenuPage() {
@@ -17,9 +18,10 @@ export default function MenuPage() {
       <section
         className="page-hero"
         style={{
-          backgroundImage: "url('/ebrowniez-logo.jpeg')", // replace hero bg later with a good branded image
+          backgroundImage: "url('/images/ebrowniez-logo.jpeg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
         }}
       >
         <div className="container">
@@ -37,7 +39,12 @@ export default function MenuPage() {
           </div>
           <div className="menu-grid">
             <article className="menu-card">
-              <img src="/strawberrymatchabrownies.jpeg" alt="Strawberry Matcha Brownies" />
+              <Image
+                src="/images/strawberrymatchabrownies.jpeg"
+                alt="Strawberry Matcha Brownies"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Strawberry Matcha Brownies</h3>
                 <p className="menu-card__description">Signature strawberry + matcha swirl with rich brownie base.</p>
@@ -46,7 +53,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/cookiesncremebrownies.jpeg" alt="Cookies n Creme Brownies" />
+              <Image
+                src="/images/cookiesncremebrownies.jpeg"
+                alt="Cookies n Creme"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Cookies n Creme</h3>
                 <p className="menu-card__description">White chocolate ganache with crushed cookie pieces.</p>
@@ -55,7 +67,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/kitkatbrownies.jpeg" alt="KitKat Brownies" />
+              <Image
+                src="/images/kitkatbrownies.jpeg"
+                alt="KitKat Brownies"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">KitKat Brownies</h3>
                 <p className="menu-card__description">Classic brownie base stacked with KitKat bites.</p>
@@ -64,7 +81,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/nutellapistachiobrownies.jpeg" alt="Nutella Brownies" />
+              <Image
+                src="/images/nutellapistachiobrownies.jpeg"
+                alt="Nutella Brownies"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Nutella Brownies</h3>
                 <p className="menu-card__description">Rich chocolate brownie infused with Nutella layers.</p>
@@ -73,7 +95,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/pistachiobrownies.jpeg" alt="Pistachio Brownies" />
+              <Image
+                src="/images/pistachiobrownies.jpeg"
+                alt="Pistachio Brownies"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Pistachio Brownies</h3>
                 <p className="menu-card__description">Fudgy brownie topped with pistachio praline crunch.</p>
@@ -92,7 +119,12 @@ export default function MenuPage() {
           </div>
           <div className="menu-grid">
             <article className="menu-card">
-              <img src="/tiramisucups.jpeg" alt="Tiramisu Cups" />
+              <Image
+                src="/images/tiramisucups.jpeg"
+                alt="Tiramisu Cups"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Tiramisu Cups</h3>
                 <p className="menu-card__description">Espresso-soaked sponge layered with mascarpone cream.</p>
@@ -101,7 +133,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/dubaichocolatebrownies.jpeg" alt="Dubai Chocolate Brownies" />
+              <Image
+                src="/images/dubaichocolatebrownies.jpeg"
+                alt="Dubai Chocolate Brownies"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Dubai Chocolate Brownies</h3>
                 <p className="menu-card__description">Chocolate luxury with pistachio praline and shards.</p>
@@ -110,7 +147,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/lotuscups.jpeg" alt="Lotus Cups & Trays" />
+              <Image
+                src="/images/lotuscups.jpeg"
+                alt="Lotus Biscoff Cups & Trays"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Lotus Biscoff Cups & Trays</h3>
                 <p className="menu-card__description">Biscoff crumble with caramel and whipped filling.</p>
@@ -129,7 +171,12 @@ export default function MenuPage() {
           </div>
           <div className="menu-grid">
             <article className="menu-card">
-              <img src="/customcake1.jpeg" alt="Custom Cake 1" />
+              <Image
+                src="/images/customcake1.jpeg"
+                alt="Custom Cake 1"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Custom Cake 1</h3>
                 <p className="menu-card__description">Moist sponge with creative custom decorations.</p>
@@ -138,7 +185,12 @@ export default function MenuPage() {
             </article>
 
             <article className="menu-card">
-              <img src="/customcake1held.jpeg" alt="Custom Cake (Held)" />
+              <Image
+                src="/images/customcake1held.jpeg"
+                alt="Custom Cake (Held)"
+                width={250}
+                height={250}
+              />
               <div className="menu-card__content">
                 <h3 className="menu-card__title">Custom Cake (Held)</h3>
                 <p className="menu-card__description">Show-stopper cake to impress any crowd.</p>
